@@ -1,0 +1,269 @@
+*{
+
+	box-sizing: border-box;
+
+}
+/*
+Configura a cor do fundo do corpo da página como cinza.
+*/
+body{
+
+	background-color: #ccc;
+}
+
+/*
+Define uma classe com as regras de margem, largura, altura e cor de fundo da div
+container que é a div principal que carrega todos os outros elementos do site.
+*/
+.container{
+
+	margin: 0 auto;
+	width: 1000px;
+	height: 1080px;
+
+}
+
+/*
+Define uma classe com as regras de margem, largura, altura e cor de fundo
+da div que carrega os elementos de topo.
+*/
+.topo{
+
+	margin: 0 auto;
+	width: 100%;
+	height: 180px;
+	background-color: #1b7f00;
+
+}
+
+/*
+Define as regras de posicionamento para a tag img dentro da classes de 
+topo.
+*/
+.topo img{
+
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+/*
+Define uma classe interna com relação a classe topo, essa classe vai
+comportar os elementos de texto e fomulários.
+*/
+.topo_conteudo{
+	
+	position: relative;
+	float: left;
+	width: 800px;
+	height: auto;
+	padding: 10px;
+	margin-top: 50px;
+	color: #fff;
+
+}
+
+/*
+Define uma classe para porsicionar corretamente os elementos de link do topo.
+*/
+.topo_links{
+	
+	position: relative;
+	float: left;
+	margin-right: 40px;]
+	font-family: verdana;
+	font-size: 18px;
+
+}
+
+/*
+Configura o comportamento visual do links.
+*/
+.topo_links a{
+
+	color: #fff;
+	text-decoration: none;
+}
+
+.topo_links a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*
+Define uma classe para porsicionar corretamente os elementos de formulário do topo.
+*/
+.topo_form{
+	
+	position: relative;
+	float: left;
+	width: auto;
+	margin-right: 260px;
+	color: #000;
+
+}
+
+/*
+Define uma classe para porsicionar corretamente os elementos de imagem referente ao carrinho
+de compras do topo.
+*/
+.topo_carrinho{
+	position: relative;
+	float: left;
+}
+
+.busca_avancada{
+
+	position: relative;
+	float: left;
+	width: 185px;
+	height: auto;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #fff;
+
+}
+
+.busca_avancada_titulo{
+	padding: 5px;
+	font-family: verdana;
+	font-size: 18px;
+	font-weight: bold; 
+	color: #006e8e;
+	background-color: #a9a9a9;
+}
+
+.busca_avancada_form{
+
+	padding: 5px;
+
+}
+
+.busca_avancada_form input, text{
+	width: 170px;
+	margin-bottom: 5px;
+}
+
+.carrossel{
+
+	position: relative;
+	float: left;
+	width: 800px;
+	height: 230px;
+	background-color: #f00;
+	margin-top: 5px;
+	margin-right: 5px
+}
+
+.busca_categorias{
+
+	position: relative;
+	float: left;
+	width: 185px;
+	height: 490px;
+	margin-right: 5px;
+	margin-left: 5px;
+
+}
+
+.busca_categorias p{
+	
+	border-bottom: 1px solid #ccc;
+
+}
+
+.busca_categorias a{
+
+	text-decoration: none;
+	color: #828282;
+}
+
+.busca_categorias a:hover{
+
+	text-decoration: underline;
+	color: #828282;
+}
+
+.container_vitrine{
+
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	width: 800px;
+	height: auto;
+	background-color: #fff;
+}
+
+.container_produto{
+
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	width: 240px;
+	height: 240px;
+	background-color: #ccc;
+	padding: 5px;
+}
+
+.container_produto img{
+
+	margin: 5px 0 5px 60px;
+	text-align: center;
+
+}
+
+.container_produto p{
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px auto;
+}
+
+.container_produto .valor{
+	position: relative;
+	float: left;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color: #006e8e;
+
+}
+
+.botao_detalhes{
+	
+	position: relative;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 5px;
+	padding: 3px;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-image: linear-gradient(to bottom ,#1e8e00 ,#176901);
+}
+
+.rodape{
+
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	width: 1000px;
+	height: 90px;
+	background-color: #1b7f00;
+}
+
+.rodape img{
+
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.clear{
+
+	clear: both;
+}
